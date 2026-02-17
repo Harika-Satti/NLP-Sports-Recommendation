@@ -8,7 +8,8 @@ st.title("🛍️ Amazon Product Recommendation System")
 # ---------------- Load Data ----------------
 @st.cache_data
 def load_dataset():
-    return load_data("C:\\Users\\harik\\OneDrive\\Desktop\\NLP RECOMMENDATIONS USING ML\\Sports-Amazon dataset.csv")
+    return load_data("Sports-Amazon dataset.csv")
+")
 
 
 df = load_dataset()
