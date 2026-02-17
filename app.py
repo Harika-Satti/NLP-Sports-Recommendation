@@ -9,7 +9,6 @@ st.title("🛍️ Amazon Product Recommendation System")
 @st.cache_data
 def load_dataset():
     return load_data("Sports-Amazon dataset.csv")
-")
 
 
 df = load_dataset()
